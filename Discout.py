@@ -1,6 +1,6 @@
 # Function to calculate discount
 def calculate_discount(price):
-    if price > 5000:
+    if price > 5000:     
         return price * 0.10  # 10% discount
     elif price > 1000:
         return price * 0.05  # 5% discount
